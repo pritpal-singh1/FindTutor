@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Find Tutor</string>
+    <string name="welcome_text">Now it\'s easier to sign up</string>
+    <string name="welcome_text2">If you don\'t have FindTutor account. Tap to sign up button</string>
 </resources>
