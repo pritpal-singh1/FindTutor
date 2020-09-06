@@ -16,7 +16,10 @@
         android:id="@+id/view2"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
         android:layout_marginTop="150dp"
         android:background="@drawable/wave" />
 
@@ -75,14 +78,13 @@
         android:singleLine="false"
         android:textSize="14sp" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnLogin"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
-
+        android:layout_height="60dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="420dp"
-        android:background="@drawable/simplerounded"
+        app:cornerRadius="20dp"
         android:text="Login"
         android:textSize="18sp"
         android:textStyle="bold" />

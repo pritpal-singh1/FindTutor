@@ -6,4 +6,10 @@
     <color name="appColor">#0099ff</color>
     <color name="appBGColor">#008577</color>
     <color name="white">#FFFFFF</color>
+
+    <!-- colors for tab and screen text -->
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_desccription_color">#656565</color>
+
 </resources>
