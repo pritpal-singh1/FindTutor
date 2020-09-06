@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_type"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".Register">
+
+    <View
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/colorPrimary" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/wave" />
+
+    <TextView
+        android:id="@+id/textView"
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:text="@string/Register_Quote"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/account_type"
+        android:layout_width="325dp"
+        android:paddingStart="30dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:layout_marginTop="240dp"
+        android:backgroundTint="@color/colorPrimary"
+
+        android:dropDownWidth="match_parent"
+        android:gravity="center"
+        android:spinnerMode="dropdown">
+
+    </Spinner>
+
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/account_name"
+        android:drawableLeft="@drawable/account_name"
+        android:drawablePadding="16dp"
+        android:hint="Name"
+        android:paddingLeft="10dp" />
+
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/ic_email"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="16dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/user_password"
+        android:layout_width="325dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/round_border"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:text="Register"
+        android:textSize="18sp"
+        app:cornerRadius="10dp"></com.google.android.material.button.MaterialButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_mono_medium"
+        android:text="Already Have an Account?"
+        android:layout_marginTop="510dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:layout_centerHorizontal="true"
+        android:text="Log In"
+        android:fontFamily="@font/roboto_mono_medium"
+        app:cornerRadius="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"></com.google.android.material.button.MaterialButton>
+
+
+</RelativeLayout>
